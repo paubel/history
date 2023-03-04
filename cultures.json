@@ -1,0 +1,46 @@
+{
+  "cultureData": [
+    {
+      "id": "MA-Olm",
+      "culture": "Olmecs",
+      "start": -1600,
+      "end": -400,
+      "continentAbbr": "MAm",
+      "partOfContinent": "Meso America",
+      "text": "The Olmecs were the earliest known major Mesoamerican civilization. Following a progressive development in Soconusco, they occupied the tropical lowlands of the modern-day Mexican states of Veracruz and Tabasco. It has been speculated that the Olmecs derived in part from the neighboring Mokaya or Mixe–Zoque cultures. ",
+      "mediaUrl": "https://upload.wikimedia.org/wikipedia/commons/9/94/San_Lorenzo_Monument_3.jpg",
+      "mediaCredit": "Maribel Ponce Ixba",
+      "mediaCaption": "San Lorenzo Monument 3 (also known as Colossal Head 3)",
+      "mediaThumbnail": "https://upload.wikimedia.org/wikipedia/commons/9/94/San_Lorenzo_Monument_3.jpg",
+      "moreInfoUrl": "https://en.wikipedia.org/wiki/Olmecs"
+    },
+    {
+      "id": "SA-ncc",
+      "culture": "Norte Chico civilization",
+      "start": -2600,
+      "end": -1800,
+      "continentAbbr": "SAm",
+      "partOfContinent": "South America",
+      "text": "Norte Chico (also known as Caral or Caral-Supe) was a complex pre-Columbian-era society that included as many as thirty major population centers in what is now the Caral region of north-central coastal Peru. ",
+      "mediaUrl": "https://upload.wikimedia.org/wikipedia/commons/2/20/Aspero.jpg",
+      "mediaCredit": "Dravinia",
+      "mediaCaption": "Architectural components of the complex of Áspero, Puerto Supe, Region of Lima, Peru",
+      "mediaThumbnail": "https://upload.wikimedia.org/wikipedia/commons/2/20/Aspero.jpg",
+      "moreInfoUrl": "https://en.wikipedia.org/wiki/Caral-Supe_civilization"
+    },
+    {
+      "id": "SA-ncc2",
+      "culture": "Text",
+      "start": 100,
+      "end": 500,
+      "continentAbbr": "SAm",
+      "partOfContinent": "South America",
+      "text": "Norte Chico (also known as Caral or Caral-Supe) was a complex pre-Columbian-era society that included as many as thirty major population centers in what is now the Caral region of north-central coastal Peru. ",
+      "mediaUrl": "https://upload.wikimedia.org/wikipedia/commons/2/20/Aspero.jpg",
+      "mediaCredit": "Dravinia",
+      "mediaCaption": "Architectural components of the complex of Áspero, Puerto Supe, Region of Lima, Peru",
+      "mediaThumbnail": "https://upload.wikimedia.org/wikipedia/commons/2/20/Aspero.jpg",
+      "moreInfoUrl": "https://en.wikipedia.org/wiki/Caral-Supe_civilization"
+    }
+  ]
+}
