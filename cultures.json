@@ -1,46 +1,237 @@
 {
   "cultureData": [
     {
-      "id": "MA-Olm",
       "culture": "Olmecs",
       "start": -1600,
       "end": -400,
       "continentAbbr": "MAm",
       "partOfContinent": "Meso America",
-      "text": "The Olmecs were the earliest known major Mesoamerican civilization. Following a progressive development in Soconusco, they occupied the tropical lowlands of the modern-day Mexican states of Veracruz and Tabasco. It has been speculated that the Olmecs derived in part from the neighboring Mokaya or Mixe–Zoque cultures. ",
+
       "mediaUrl": "https://upload.wikimedia.org/wikipedia/commons/9/94/San_Lorenzo_Monument_3.jpg",
       "mediaCredit": "Maribel Ponce Ixba",
       "mediaCaption": "San Lorenzo Monument 3 (also known as Colossal Head 3)",
-      "mediaThumbnail": "https://upload.wikimedia.org/wikipedia/commons/9/94/San_Lorenzo_Monument_3.jpg",
       "moreInfoUrl": "https://en.wikipedia.org/wiki/Olmecs"
     },
     {
-      "id": "SA-ncc",
-      "culture": "Norte Chico civilization",
+      "culture": "Caral-Supe",
       "start": -2600,
       "end": -1800,
       "continentAbbr": "SAm",
       "partOfContinent": "South America",
-      "text": "Norte Chico (also known as Caral or Caral-Supe) was a complex pre-Columbian-era society that included as many as thirty major population centers in what is now the Caral region of north-central coastal Peru. ",
       "mediaUrl": "https://upload.wikimedia.org/wikipedia/commons/2/20/Aspero.jpg",
       "mediaCredit": "Dravinia",
       "mediaCaption": "Architectural components of the complex of Áspero, Puerto Supe, Region of Lima, Peru",
-      "mediaThumbnail": "https://upload.wikimedia.org/wikipedia/commons/2/20/Aspero.jpg",
       "moreInfoUrl": "https://en.wikipedia.org/wiki/Caral-Supe_civilization"
     },
     {
-      "id": "SA-ncc2",
-      "culture": "Text",
-      "start": 100,
-      "end": 500,
+      "culture": "Inca",
+      "start": 1438,
+      "end": 1533,
+      "continentAbbr": "MAm",
+      "partOfContinent": "Meso America",
+      "mediaUrl": "https://upload.wikimedia.org/wikipedia/commons/0/01/80_-_Machu_Picchu_-_Juin_2009_-_edit.2.jpg",
+      "mediaCredit": "Martin St-Amant",
+      "mediaCaption": "Machu Picchu",
+      "moreInfoUrl": "https://en.wikipedia.org/wiki/Inca_Empire",
+      "overlap": false
+    },
+    {
+      "culture": "Aztec Empire",
+      "start": 1428,
+      "end": 1521,
       "continentAbbr": "SAm",
       "partOfContinent": "South America",
-      "text": "Norte Chico (also known as Caral or Caral-Supe) was a complex pre-Columbian-era society that included as many as thirty major population centers in what is now the Caral region of north-central coastal Peru. ",
-      "mediaUrl": "https://upload.wikimedia.org/wikipedia/commons/2/20/Aspero.jpg",
-      "mediaCredit": "Dravinia",
-      "mediaCaption": "Architectural components of the complex of Áspero, Puerto Supe, Region of Lima, Peru",
-      "mediaThumbnail": "https://upload.wikimedia.org/wikipedia/commons/2/20/Aspero.jpg",
-      "moreInfoUrl": "https://en.wikipedia.org/wiki/Caral-Supe_civilization"
+
+      "moreInfoUrl": "https://en.wikipedia.org/wiki/Aztec_Empire",
+      "overlap": false
+    },
+    {
+      "culture": "Nazca",
+      "start": -100,
+      "end": 800,
+      "continentAbbr": "SAm",
+      "partOfContinent": "South America",
+      "mediaUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a5/L%C3%ADneas_de_Nazca%2C_Nazca%2C_Per%C3%BA%2C_2015-07-29%2C_DD_52.JPG",
+      "mediaCredit": "Diego Delso",
+      "mediaCaption": "Líneas de Nazca",
+      "moreInfoUrl": "https://en.wikipedia.org/wiki/Nazca_culture",
+      "overlap": true
+    },
+    {
+      "culture": "Wari",
+      "start": 500,
+      "end": 1000,
+      "continentAbbr": "SAm",
+      "partOfContinent": "South America",
+      "mediaUrl": "https://upload.wikimedia.org/wikipedia/commons/7/73/Huari_-_Head_Pot_with_Painted_Design_-_Walters_482849_-_Three_Quarter_Right.jpg",
+      "mediaCredit": "Walters Art Museum",
+      "mediaCaption": "Four-Cornered Hat",
+      "moreInfoUrl": "https://en.wikipedia.org/wiki/Wari_Empire",
+      "overlap": true
+    },
+    {
+      "culture": "Tiwanaku",
+      "start": 600,
+      "end": 1000,
+      "continentAbbr": "SAm",
+      "partOfContinent": "South America",
+      "mediaUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c1/Zonnepoort_tiwanaku.jpg",
+      "mediaCredit": "Mhwater",
+      "mediaCaption": "Tiwanaku tenon head",
+      "moreInfoUrl": "https://en.wikipedia.org/wiki/Tiwanaku_Empire",
+      "overlap": true
+    },
+
+    {
+      "culture": "Kerma",
+      "start": -2500,
+      "end": -1500,
+      "continentAbbr": "SSA",
+      "partOfContinent": "Sub-Saharan Africa",
+      "mediaUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Kerma_granite_head_93975776f58825eed98e3f7f37f99528.jpg",
+      "mediaCredit": "Jedorton",
+      "mediaCaption": "Kerma granite head",
+      "moreInfoUrl": "https://en.wikipedia.org/wiki/Kerma_culture",
+      "overlap": false
+    },
+    {
+      "culture": "Minoan",
+      "start": -2600,
+      "end": -1100,
+      "continentAbbr": "EU",
+      "partOfContinent": "Europe",
+      "mediaUrl": "https://upload.wikimedia.org/wikipedia/commons/e/ef/Prince_of_the_Lilies%2C_Minoan_fresco_from_Knossos%2C_1550_BC%2C_AMH%2C_145372.jpg",
+      "mediaCredit": "Zde",
+      "mediaCaption": "Minoan fresco from Knossos",
+      "moreInfoUrl": "https://en.wikipedia.org/wiki/Minoan_civilization",
+      "overlap": false
+    },
+    {
+      "culture": "Toltec",
+      "start": 950,
+      "end": 1150,
+      "continentAbbr": "MAm",
+      "partOfContinent": "Meso America",
+
+      "moreInfoUrl": "https://en.wikipedia.org/wiki/Toltec",
+      "overlap": false
+    },
+    {
+      "culture": "Teotihuacan",
+      "start": 1,
+      "end": 600,
+      "continentAbbr": "MAm",
+      "partOfContinent": "Meso America",
+      "moreInfoUrl": "https://en.wikipedia.org/wiki/Teotihuacan",
+      "overlap": true
+    },
+    {
+      "culture": "Maya",
+      "start": 250,
+      "end": 900,
+      "continentAbbr": "MAm",
+      "partOfContinent": "Meso America",
+      "moreInfoUrl": "https://en.wikipedia.org/wiki/Maya_civilization",
+      "overlap": true
+    },
+    {
+      "culture": "Poverty Point",
+      "start": -1730,
+      "end": -1350,
+      "continentAbbr": "NAm",
+      "partOfContinent": "North America",
+      "moreInfoUrl": "https://en.wikipedia.org/wiki/Poverty_Point_culture",
+      "overlap": false
+    },
+    {
+      "culture": "Hopewell",
+      "start": -100,
+      "end": 500,
+      "continentAbbr": "NAm",
+      "partOfContinent": "North America",
+      "moreInfoUrl": "https://en.wikipedia.org/wiki/Hopewell_tradition",
+      "overlap": false
+    },
+    {
+      "culture": "Mississippian",
+      "start": 800,
+      "end": 1600,
+      "continentAbbr": "NAm",
+      "partOfContinent": "North America",
+      "moreInfoUrl": "https://en.wikipedia.org/wiki/Mississippian_culture",
+      "overlap": true
+    },
+    {
+      "culture": "Nok",
+      "start": -1500,
+      "end": -1,
+      "continentAbbr": "SSA",
+      "partOfContinent": "Sub-Saharan Africa",
+      "moreInfoUrl": "https://en.wikipedia.org/wiki/Nok_culture",
+      "overlap": true
+    },
+    {
+      "culture": "Kush",
+      "start": -747,
+      "end": -656,
+      "continentAbbr": "SSA",
+      "partOfContinent": "Sub-Saharan Africa",
+      "moreInfoUrl": "https://en.wikipedia.org/wiki/Kingdom_of_Kush",
+      "overlap": true
+    },
+    {
+      "culture": "Aksum",
+      "start": 100,
+      "end": 960,
+      "continentAbbr": "SSA",
+      "partOfContinent": "Sub-Saharan Africa",
+      "moreInfoUrl": "https://en.wikipedia.org/wiki/Kingdom_of_Aksum",
+      "overlap": false
+    },
+    {
+      "culture": "Viceroyalty of Peru",
+      "start": 1542,
+      "end": 1824,
+      "continentAbbr": "SAm",
+      "partOfContinent": "South America",
+      "moreInfoUrl": "https://en.wikipedia.org/wiki/Viceroyalty_of_Peru",
+      "overlap": false
+    },
+    {
+      "culture": "Argentina",
+      "start": 1810,
+      "end": 2023,
+      "continentAbbr": "SAm",
+      "partOfContinent": "South America",
+      "moreInfoUrl": "https://en.wikipedia.org/wiki/Argentina",
+      "overlap": false
+    },
+    {
+      "culture": "Great Pueblo",
+      "start": 1150,
+      "end": 1350,
+      "continentAbbr": "NAm",
+      "partOfContinent": "North America",
+      "moreInfoUrl": "https://en.wikipedia.org/wiki/Pueblo_III_Period",
+      "overlap": true
+    },
+    {
+      "culture": "Old Kingdom of Egypt",
+      "start": -2600,
+      "end": -2181,
+      "continentAbbr": "NAf",
+      "partOfContinent": "North Africa",
+      "moreInfoUrl": "https://en.wikipedia.org/wiki/Old_Kingdom_of_Egypt",
+      "overlap": false
+    },
+    {
+      "culture": "Middle Kingdom of Egypt",
+      "start": -2055,
+      "end": -1650,
+      "continentAbbr": "NAf",
+      "partOfContinent": "North Africa",
+      "moreInfoUrl": "https://en.wikipedia.org/wiki/Middle_Kingdom_of_Egypt",
+      "overlap": false
     }
   ]
 }

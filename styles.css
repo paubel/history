@@ -18,6 +18,10 @@ section {
   place-items: center;
   position: relative;
 }
+
+#culture-section {
+  margin-left: 40px;
+}
 #time-div {
   position: absolute;
 
@@ -37,31 +41,35 @@ article {
   place-content: center;
   /*   place-items: center; */
   /*   border: 1px solid black; */
-  font-size: 0.8rem;
+  font-size: calc(10px + 0.390625vw);
   border-radius: 1em;
-  width: 14.28vw;
+  width: 13vw;
   position: absolute;
   background-color: hsla(131, 100%, 32%, 0.5);
   z-index: 2;
   writing-mode: vertical-rl;
   /*   text-orientation: mixed; */
 }
-/*TIP*/
-figure img {
-  margin: 0 auto;
-  object-fit: contain;
-  /*   width: 100%; */
-  aspect-ratio: 1;
-  /*   margin-bottom: 0.5em; */
-  /*   max-height: 70vh; */
-  max-width: 400px;
+
+a {
+  text-decoration: none;
+  color: black;
 }
 
-figure figcaption {
-  white-space: pre-line;
+a:hover {
 }
 
-@media (min-width: 700px) {
+article:hover {
+  box-shadow: 0px 0px 16px 3px rgba(0, 0, 0, 0.3);
+}
+
+article:active {
+  color: inherit;
+  /*   font-weight: 600; */
+  box-shadow: inset 0px 0px 15px 4px rgba(0, 0, 0, 0.3);
+}
+
+@media (min-width: 900px) {
   article {
     writing-mode: horizontal-tb;
   }
