@@ -104,7 +104,7 @@
       "mediaCredit": "Zde",
       "mediaCaption": "Minoan fresco from Knossos",
       "moreInfoUrl": "https://en.wikipedia.org/wiki/Minoan_civilization",
-      "overlap": false
+      "overlap": true
     },
     {
       "culture": "Toltec",
@@ -216,7 +216,7 @@
       "overlap": true
     },
     {
-      "culture": "Old Kingdom of Egypt",
+      "culture": "Old Kingdom Egypt",
       "start": -2600,
       "end": -2181,
       "continentAbbr": "NAf",
@@ -225,13 +225,132 @@
       "overlap": false
     },
     {
-      "culture": "Middle Kingdom of Egypt",
+      "culture": "Middle Kingdom Egypt",
       "start": -2055,
       "end": -1650,
       "continentAbbr": "NAf",
       "partOfContinent": "North Africa",
       "moreInfoUrl": "https://en.wikipedia.org/wiki/Middle_Kingdom_of_Egypt",
       "overlap": false
+    },
+    {
+      "culture": "New Kingdom Egypt",
+      "start": -1550,
+      "end": -1069,
+      "continentAbbr": "NAf",
+      "partOfContinent": "North Africa",
+      "moreInfoUrl": "https://en.wikipedia.org/wiki/New_Kingdom_of_Egypt",
+      "overlap": false
+    },
+
+    {
+      "culture": "Akkad",
+      "start": -2334,
+      "end": -2154,
+      "continentAbbr": "WAs",
+      "partOfContinent": "Western Asia",
+      "moreInfoUrl": "https://en.wikipedia.org/wiki/Akkadian_Empire",
+      "overlap": false
+    },
+    {
+      "culture": "3rd Dynasty Ur",
+      "start": -2112,
+      "end": -2004,
+      "continentAbbr": "WAs",
+      "partOfContinent": "Western Asia",
+      "moreInfoUrl": "https://en.wikipedia.org/wiki/Third_Dynasty_of_Ur",
+      "overlap": false
+    },
+    {
+      "culture": "Old Babylon",
+      "start": -1792,
+      "end": -1750,
+      "continentAbbr": "WAs",
+      "partOfContinent": "Western Asia",
+      "moreInfoUrl": "https://en.wikipedia.org/wiki/Old_Babylonian_Empire",
+      "overlap": false
+    },
+    {
+      "culture": "Neo-Assyrian Empire",
+      "start": -911,
+      "end": -609,
+      "continentAbbr": "WAs",
+      "partOfContinent": "Western Asia",
+      "moreInfoUrl": "https://en.wikipedia.org/wiki/Neo-Assyrian_Empire",
+      "overlap": false
+    },
+    {
+      "culture": "Neo-Babylonian",
+      "start": -556,
+      "end": -539,
+      "continentAbbr": "WAs",
+      "partOfContinent": "Western Asia",
+      "moreInfoUrl": "https://en.wikipedia.org/wiki/Neo-Babylonian_Empire",
+      "overlap": false
+    },
+    {
+      "culture": "Mycenaean Greece",
+      "start": -1750,
+      "end": -1050,
+      "continentAbbr": "EU",
+      "partOfContinent": "Europe",
+      "moreInfoUrl": "https://en.wikipedia.org/wiki/Mycenaean_Greece",
+      "overlap": true
+    },
+    {
+      "culture": "Hittites",
+      "start": -1650,
+      "end": -1190,
+      "continentAbbr": "WAs",
+      "partOfContinent": "Western Asia",
+      "moreInfoUrl": "https://en.wikipedia.org/wiki/Hittites",
+      "overlap": false
+    },
+    {
+      "culture": "Carthage",
+      "start": -814,
+      "end": -146,
+      "continentAbbr": "NAf",
+      "partOfContinent": "North Africa",
+      "moreInfoUrl": "https://en.wikipedia.org/wiki/Ancient_Carthage",
+      "overlap": false
+    },
+    {
+      "culture": "Roman Republic",
+      "start": -509,
+      "end": -27,
+      "continentAbbr": "EU",
+      "partOfContinent": "Europe",
+      "moreInfoUrl": "https://en.wikipedia.org/wiki/Roman_Republic",
+      "overlap": false
+    },
+    {
+      "culture": "Roman Empire",
+      "start": -27,
+      "end": 395,
+      "continentAbbr": "EU",
+      "partOfContinent": "Europe",
+      "moreInfoUrl": "https://en.wikipedia.org/wiki/Roman_Empire",
+      "overlap": false
+    },
+    {
+      "culture": "Western Roman Empire",
+      "cultureAbbr": "wre",
+      "start": 395,
+      "end": 476,
+      "continentAbbr": "EU",
+      "partOfContinent": "Europe",
+      "moreInfoUrl": "https://en.wikipedia.org/wiki/Western_Roman_Empire",
+      "overlap": true
+    },
+    {
+      "culture": "Byzantine Empire",
+      "start": 395,
+      "end": 1453,
+      "continentAbbr": "EU",
+      "partOfContinent": "Europe",
+      "moreInfoUrl": "https://en.wikipedia.org/wiki/Byzantine_Empiree",
+      "overlap": true
     }
   ]
 }

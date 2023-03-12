@@ -14,6 +14,7 @@ fetch("./cultures.json")
     let myH2 = null;
     let cultureSection = document.createElement("section");
     cultureSection.setAttribute("id", "culture-section");
+
     let timeSection = document.createElement("section");
     timeSection.setAttribute("id", "time-section");
 
@@ -48,6 +49,8 @@ fetch("./cultures.json")
     function createCultureElement(value) {
       myArticle = document.createElement("article");
       myArticle.setAttribute("id", "culture-article");
+      myArticle.setAttribute("id", value.culture);
+      myArticle.setAttribute("id", value.cultureAbbr);
       const myA = document.createElement("a");
       //const myFigure = document.createElement("figure");
       //const myImg = document.createElement("img");
@@ -103,7 +106,7 @@ fetch("./cultures.json")
           overlapTimeAndContinent++;
         } else {
           myArticle.style.left =
-            leftMarginTimeAndContinent + spaceforTime + "vw";
+            leftMarginTimeAndContinent + spaceforTime + 1 + "vw";
         }
 
         myArticle.style.backgroundColor = "hsla(15, 100%, 72%, 0.5)";
@@ -142,13 +145,29 @@ fetch("./cultures.json")
         //   leftMarginTimeAndContinent + spaceforTime * 3 + "vw";
         myArticle.style.backgroundColor = "hsla(	0, 59%, 41%, 0.5)";
       } else if (value.continentAbbr === "EU") {
-        myArticle.style.left =
-          leftMarginTimeAndContinent + spaceforTime * 4 + "vw";
+        if (value.overlap) {
+          myArticle.style.width = spaceforTime / 2.5 + "vw";
+          myArticle.style.left =
+            leftMarginTimeAndContinent +
+            53 +
+            overlapTimeAndContinent * 1 +
+            "vw";
+          //overlapTimeAndContinent++;
+        } else {
+          myArticle.style.left =
+            leftMarginTimeAndContinent + spaceforTime * 4 + "vw";
+        }
+        //myArticle.style.left =
+        leftMarginTimeAndContinent + spaceforTime * 4 + "vw";
         myArticle.style.backgroundColor = "hsla(	120, 100%, 25%,.5)";
       } else if (value.continentAbbr === "NAf") {
         myArticle.style.left =
-          leftMarginTimeAndContinent + spaceforTime * 5 + "vw";
+          leftMarginTimeAndContinent + spaceforTime * 4.8 + "vw";
         myArticle.style.backgroundColor = "hsla(90, 100%, 40%, 0.5)";
+      } else if (value.continentAbbr === "WAs") {
+        myArticle.style.left =
+          leftMarginTimeAndContinent + spaceforTime * 5.5 + "vw";
+        myArticle.style.backgroundColor = "hsla(190, 100%, 40%, 0.5)";
       }
     }
 

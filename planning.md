@@ -1,13 +1,18 @@
 North America: NAm
 Mesoamerica: MAm
 South America: SAm
+
 Europe: Eu
+
 North Africa: NAf
+
 Sub-Saharan Africa: SSAr
-Middle East: ME
+Western Asia (The Middle East or Near East and the Caucasus): WAs
+
+7 st
+
 North Asia (Siberia): NAs
 Central Asia (The 'stans): CAs
-Western Asia (The Middle East or Near East and the Caucasus): WAs
 South Asia (Indian subcontinent):SAs
 East Asia (Far East): EAs
 Southeast Asia (East Indies and Indochina)SeAs
