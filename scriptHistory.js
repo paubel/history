@@ -7,7 +7,7 @@ fetch("./cultures.json")
     const numbOfObjects = Object.keys(data.cultureData).length;
     const selectNumbOfObjectsElement = document.querySelector("#num-obj");
     const numP = document.createElement("p");
-    const spaceforTime = 14.28;
+    const spaceforTime = 13.28;
 
     let myArticle = document.createElement("article");
     let main = null;
@@ -17,9 +17,6 @@ fetch("./cultures.json")
 
     let timeSection = document.createElement("section");
     timeSection.setAttribute("id", "time-section");
-
-    // numP.textContent = `Number of cultures: ${numbOfObjects}`;
-    // selectNumbOfObjectsElement.appendChild(numP);
     main = document.querySelector("main");
     myH2 = document.createElement("h2");
     main.appendChild(timeSection);
@@ -44,144 +41,27 @@ fetch("./cultures.json")
         createCultureElement(value);
       });
     }
+
     let overlapTimeAndContinent = 0;
-    const leftMarginTimeAndContinent = 0;
+    //const leftMarginTimeAndContinent = 0;
     function createCultureElement(value) {
       myArticle = document.createElement("article");
-      myArticle.setAttribute("id", "culture-article");
+      //myArticle.setAttribute("id", "culture-article");
       myArticle.setAttribute("id", value.culture);
-      myArticle.setAttribute("id", value.cultureAbbr);
+      myArticle.setAttribute("class", value.continentAbbr);
+      //myArticle.setAttribute("id", value.cultureAbbr);
       const myA = document.createElement("a");
-      //const myFigure = document.createElement("figure");
-      //const myImg = document.createElement("img");
-      //const myFigcaption = document.createElement("figcaption");
-
-      //myImg.src = `${value.mediaUrl}`;
-      //const imgValue = `${value.mediaUrl}`;
-      //const attr = document.createAttribute("data-src");
-      //attr.value = imgValue;
-      //myImg.setAttributeNode(attr);
-
-      //myImg.classList.add("lazy");
-      //myImg.alt = `${value.mediaCaption}`;
-      //myFigcaption.textContent = `From ${value.start} to ${value.end}\n${value.text} `;
 
       myArticle.textContent = `${value.culture}`;
       myArticle.href = `${value.moreInfoUrl}`;
       myA.href = `${value.moreInfoUrl}`;
-      //myA.target = "_blank";
-      //const linkText = document.createTextNode(`Read more...`);
 
       cultureSection.appendChild(myA);
       myA.appendChild(myArticle);
 
-      //myArticle.appendChild(myH2);
-      //myArticle.appendChild(myA);
-      //myArticle.appendChild(myFigure);
-      //myFigure.appendChild(myImg);
-      //myFigure.appendChild(myFigcaption);
-      // myH2.appendChild(myA);
-      //myA.appendChild(linkText);
-      //set width of article
       myArticle.style.height = value.end / 4 - value.start / 4 + "px";
       myArticle.style.top = (value.start + 2565) / 4 + "px";
-
-      if (value.continentAbbr === "SAm") {
-        myArticle.style.backgroundColor = "hsla(60, 100%, 50%, 0.5)";
-        //whenMultipleCultureExistSameTime(value);
-        if (value.overlap) {
-          myArticle.style.width = spaceforTime / 3 + "vw";
-          myArticle.style.left =
-            leftMarginTimeAndContinent + overlapTimeAndContinent * 5 + "vw";
-          overlapTimeAndContinent++;
-        } else {
-          myArticle.style.left = leftMarginTimeAndContinent + "vw";
-        }
-      } else if (value.continentAbbr === "MAm") {
-        //whenMultipleCultureExistSameTime(value);
-        if (value.overlap) {
-          myArticle.style.width = spaceforTime / 2.5 + "vw";
-          myArticle.style.left =
-            leftMarginTimeAndContinent - 3 + overlapTimeAndContinent * 6 + "vw";
-          overlapTimeAndContinent++;
-        } else {
-          myArticle.style.left =
-            leftMarginTimeAndContinent + spaceforTime + 1 + "vw";
-        }
-
-        myArticle.style.backgroundColor = "hsla(15, 100%, 72%, 0.5)";
-      } else if (value.continentAbbr === "NAm") {
-        // myArticle.style.left =
-        //   leftMarginTimeAndContinent + spaceforTime * 2 + "vw";
-        if (value.overlap) {
-          myArticle.style.width = spaceforTime / 2.5 + "vw";
-          myArticle.style.left =
-            leftMarginTimeAndContinent +
-            19 +
-            overlapTimeAndContinent * 2 +
-            "vw";
-          console.log(overlapTimeAndContinent);
-          overlapTimeAndContinent++;
-        } else {
-          myArticle.style.left =
-            leftMarginTimeAndContinent + spaceforTime * 2 + "vw";
-        }
-        myArticle.style.backgroundColor = "hsla(0,100%,50%,.5)";
-      } else if (value.continentAbbr === "SSA") {
-        if (value.overlap) {
-          myArticle.style.width = spaceforTime / 2.5 + "vw";
-          myArticle.style.left =
-            leftMarginTimeAndContinent +
-            14 +
-            overlapTimeAndContinent * 6 +
-            "vw";
-          console.log(overlapTimeAndContinent);
-          overlapTimeAndContinent++;
-        } else {
-          myArticle.style.left =
-            leftMarginTimeAndContinent + spaceforTime * 3 + "vw";
-        }
-        // myArticle.style.left =
-        //   leftMarginTimeAndContinent + spaceforTime * 3 + "vw";
-        myArticle.style.backgroundColor = "hsla(	0, 59%, 41%, 0.5)";
-      } else if (value.continentAbbr === "EU") {
-        if (value.overlap) {
-          myArticle.style.width = spaceforTime / 2.5 + "vw";
-          myArticle.style.left =
-            leftMarginTimeAndContinent +
-            53 +
-            overlapTimeAndContinent * 1 +
-            "vw";
-          //overlapTimeAndContinent++;
-        } else {
-          myArticle.style.left =
-            leftMarginTimeAndContinent + spaceforTime * 4 + "vw";
-        }
-        //myArticle.style.left =
-        leftMarginTimeAndContinent + spaceforTime * 4 + "vw";
-        myArticle.style.backgroundColor = "hsla(	120, 100%, 25%,.5)";
-      } else if (value.continentAbbr === "NAf") {
-        myArticle.style.left =
-          leftMarginTimeAndContinent + spaceforTime * 4.8 + "vw";
-        myArticle.style.backgroundColor = "hsla(90, 100%, 40%, 0.5)";
-      } else if (value.continentAbbr === "WAs") {
-        myArticle.style.left =
-          leftMarginTimeAndContinent + spaceforTime * 5.5 + "vw";
-        myArticle.style.backgroundColor = "hsla(190, 100%, 40%, 0.5)";
-      }
     }
-
-    //FIX THIS
-    /*  function whenMultipleCultureExistSameTime(value) {
-      if (value.overlap) {
-        myArticle.style.width = spaceforTime / 3 + "vw";
-        myArticle.style.left =
-          leftMarginTimeAndContinent + overlapTimeAndContinent * 5 + "vw";
-        overlapTimeAndContinent++;
-      } else {
-        myArticle.style.left = leftMarginTimeAndContinent + spaceforTime + "vw";
-      }
-    } */
 
     function lazyLoadFunc() {
       //      document.addEventListener("DOMContentLoaded", function () {

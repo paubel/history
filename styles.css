@@ -1,3 +1,7 @@
+:root {
+  --width-3: 2.8vw;
+  --width-2: 3.9vw;
+}
 body {
   background-color: lightskyblue;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
@@ -36,12 +40,12 @@ section {
 
 article {
   margin: 1vh 1vw;
-  padding: 1vh 1vw;
+  /*   padding: 1vh 1vw; */
   display: grid;
   place-content: center;
   /*   place-items: center; */
   /*   border: 1px solid black; */
-  font-size: calc(10px + 0.390625vw);
+  font-size: calc(8px + 0.390625vw);
   border-radius: 1em;
   width: 8vw;
   position: absolute;
@@ -60,18 +64,294 @@ article:hover {
   box-shadow: 0px 0px 16px 3px rgba(0, 0, 0, 0.3);
 }
 
-/* article#Sumer {
-  width: 2vw;
-} */
-
-article#wre {
-  margin-left: -6vw;
-}
 article:active {
   color: inherit;
   /*   font-weight: 600; */
   box-shadow: inset 0px 0px 15px 4px rgba(0, 0, 0, 0.3);
 }
+
+/* Continents START */
+article.SAm {
+  background-color: hsla(64, 93%, 49%, 0.5);
+  left: -0.8vw;
+}
+article.MAm {
+  background-color: hsla(38, 100%, 50%, 0.5);
+  left: 8.5vw;
+}
+
+article.NAm {
+  background-color: hsla(0, 93%, 49%, 0.5);
+  left: 17vw;
+}
+
+article.SSA {
+  background-color: hsla(36, 90%, 24%, 0.5);
+  left: 25.5vw;
+}
+
+article.NAf {
+  background-color: hsla(53, 100%, 50%, 0.5);
+  left: 34vw;
+}
+
+article.EU {
+  background-color: hsla(184, 100%, 50%, 0.5);
+  left: 42.5vw;
+}
+
+article.WAs {
+  background-color: hsla(117, 100%, 50%, 0.5);
+  left: 51vw;
+}
+
+article.SAs {
+  background-color: hsla(172, 100%, 50%, 0.5);
+  left: 59.5vw;
+}
+
+article.EAs {
+  background-color: hsla(284, 100%, 50%, 0.5);
+  left: 68vw;
+}
+
+article.OC {
+  background-color: hsla(246, 76%, 57%, 0.5);
+  left: 68vw;
+}
+
+/* Continents END */
+
+/*Cultures START*/
+
+/* SAm */
+#Wari {
+  width: var(--width-3);
+  left: 2.2vw;
+}
+
+#Nazca {
+  width: var(--width-3);
+}
+
+#Tiwanaku {
+  width: var(--width-3);
+  left: 5.2vw;
+}
+
+/* MAm */
+#Teotihuacan {
+  width: var(--width-2);
+}
+#Maya {
+  width: var(--width-2);
+  left: 12.6vw;
+}
+
+/* NAm */
+#Pueblo {
+  width: var(--width-2);
+}
+
+#Mississippian {
+  width: var(--width-2);
+  left: 21.3vw;
+}
+
+/* SSA */
+#Nok {
+  width: var(--width-2);
+}
+
+#Kush {
+  width: var(--width-2);
+  left: 29.6vw;
+}
+
+/* EU */
+#Minoan {
+  width: var(--width-2);
+}
+#Mycenaean {
+  width: var(--width-2);
+  left: 46.7vw;
+}
+
+#Rome-rep {
+  width: var(--width-2);
+}
+#Alexander {
+  width: var(--width-2);
+  left: 46.7vw;
+}
+
+#W-Roman-emp {
+  width: var(--width-2);
+}
+
+#Byzantine {
+  width: var(--width-2);
+  left: 46.7vw;
+}
+/* WAs */
+#Byzantine {
+  width: var(--width-2);
+  left: 46.7vw;
+}
+
+#Neo-Assyrian {
+  width: var(--width-2);
+}
+#Medes {
+  width: var(--width-2);
+  left: 54.8vw;
+}
+
+#Neo-Babylonian {
+  width: var(--width-2);
+}
+
+#Achaemenid {
+  width: var(--width-2);
+  left: 54.8vw;
+}
+
+#Rashidun {
+  /*   font-size: 0.7rem; */
+}
+
+#Umayyad {
+  /*   font-size: 0.7rem; */
+}
+
+#Abbasid {
+  width: var(--width-3);
+  left: 50.8vw;
+}
+#Seljuk {
+  width: var(--width-3);
+  left: 53.8vw;
+}
+
+#Rum {
+  width: var(--width-3);
+  left: 56.8vw;
+}
+
+#Ottoman {
+  width: var(--width-2);
+}
+#Safavid {
+  width: var(--width-2);
+  left: 55.3vw;
+}
+
+#Timurid {
+  width: var(--width-2);
+  left: 55.3vw;
+}
+
+/* SAs */
+#Magadha {
+  width: var(--width-2);
+}
+
+#Kuru {
+  width: var(--width-2);
+  left: 63.7vw;
+}
+
+#Maurya {
+  width: var(--width-2);
+}
+#Indo-Greek {
+  width: var(--width-2);
+  left: 63.7vw;
+}
+#Satavahana {
+  width: var(--width-2);
+}
+#Kushan {
+  width: var(--width-2);
+  left: 63.7vw;
+}
+
+#Vakataka {
+  width: var(--width-2);
+}
+#Chalukya {
+  width: var(--width-2);
+}
+
+#Harsha {
+  width: var(--width-2);
+  left: 63.7vw;
+}
+
+#Gurjara-Pratihara {
+  width: var(--width-2);
+  left: 63.7vw;
+}
+/* EAs */
+
+#Zhou {
+  width: var(--width-2);
+}
+#Spring-Autumn-period {
+  width: var(--width-2);
+  left: 72.2vw;
+}
+#Warring-States {
+  width: var(--width-2);
+  left: 72.2vw;
+}
+#Xiongnu {
+  width: var(--width-2);
+}
+#Qin {
+  width: var(--width-2);
+  left: 72.2vw;
+}
+#Han {
+  width: var(--width-2);
+  left: 72.2vw;
+}
+#Three-Kingdoms {
+  width: var(--width-2);
+}
+#Jin {
+  width: var(--width-2);
+  left: 72.2vw;
+}
+
+#Kamakura {
+  width: var(--width-3);
+
+  left: 74vw;
+}
+
+#Goryeo {
+  width: var(--width-3);
+
+  left: 70.8vw;
+}
+#Song {
+  width: var(--width-3);
+
+  left: 67.7vw;
+}
+#Yuan {
+  width: var(--width-3);
+  left: 67.7vw;
+}
+
+#Ming {
+  width: var(--width-3);
+
+  left: 67.7vw;
+}
+
+/*Cultures END*/
 
 @media (min-width: 900px) {
   article {

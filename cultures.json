@@ -5,8 +5,8 @@
       "start": -1600,
       "end": -400,
       "continentAbbr": "MAm",
+      "cultureAbbr": "olmecs",
       "partOfContinent": "Meso America",
-
       "mediaUrl": "https://upload.wikimedia.org/wikipedia/commons/9/94/San_Lorenzo_Monument_3.jpg",
       "mediaCredit": "Maribel Ponce Ixba",
       "mediaCaption": "San Lorenzo Monument 3 (also known as Colossal Head 3)",
@@ -17,6 +17,7 @@
       "start": -2600,
       "end": -1800,
       "continentAbbr": "SAm",
+      "cultureAbbr": "caral",
       "partOfContinent": "South America",
       "mediaUrl": "https://upload.wikimedia.org/wikipedia/commons/2/20/Aspero.jpg",
       "mediaCredit": "Dravinia",
@@ -207,7 +208,7 @@
       "overlap": false
     },
     {
-      "culture": "Great Pueblo",
+      "culture": "Pueblo",
       "start": 1150,
       "end": 1350,
       "continentAbbr": "NAm",
@@ -271,7 +272,7 @@
       "overlap": false
     },
     {
-      "culture": "Neo-Assyrian Empire",
+      "culture": "Neo-Assyrian",
       "start": -911,
       "end": -609,
       "continentAbbr": "WAs",
@@ -286,10 +287,10 @@
       "continentAbbr": "WAs",
       "partOfContinent": "Western Asia",
       "moreInfoUrl": "https://en.wikipedia.org/wiki/Neo-Babylonian_Empire",
-      "overlap": false
+      "overlap": true
     },
     {
-      "culture": "Mycenaean Greece",
+      "culture": "Mycenaean",
       "start": -1750,
       "end": -1050,
       "continentAbbr": "EU",
@@ -316,7 +317,8 @@
       "overlap": false
     },
     {
-      "culture": "Roman Republic",
+      "culture": "Rome-rep",
+      "cultureAbbr": "romrep",
       "start": -509,
       "end": -27,
       "continentAbbr": "EU",
@@ -325,7 +327,7 @@
       "overlap": false
     },
     {
-      "culture": "Roman Empire",
+      "culture": "Rome-emp",
       "start": -27,
       "end": 395,
       "continentAbbr": "EU",
@@ -334,7 +336,7 @@
       "overlap": false
     },
     {
-      "culture": "Western Roman Empire",
+      "culture": "W-Roman-emp",
       "cultureAbbr": "wre",
       "start": 395,
       "end": 476,
@@ -344,13 +346,412 @@
       "overlap": true
     },
     {
-      "culture": "Byzantine Empire",
+      "culture": "Byzantine",
       "start": 395,
       "end": 1453,
       "continentAbbr": "EU",
       "partOfContinent": "Europe",
       "moreInfoUrl": "https://en.wikipedia.org/wiki/Byzantine_Empiree",
       "overlap": true
+    },
+    {
+      "culture": "Achaemenid",
+      "start": -550,
+      "end": -330,
+      "continentAbbr": "WAs",
+      "partOfContinent": "Western Asia",
+      "moreInfoUrl": "https://en.wikipedia.org/wiki/Achaemenid_Empire",
+      "overlap": true
+    },
+    {
+      "culture": "Medes",
+      "start": -678,
+      "end": -549,
+      "continentAbbr": "WAs",
+      "partOfContinent": "Western Asia",
+      "moreInfoUrl": "https://en.wikipedia.org/wiki/Achaemenid_Empire",
+      "overlap": true
+    },
+    {
+      "culture": "Parthian",
+      "start": -247,
+      "end": 224,
+      "continentAbbr": "WAs",
+      "partOfContinent": "Western Asia",
+      "moreInfoUrl": "https://en.wikipedia.org/wiki/Parthian_Empire",
+      "overlap": false
+    },
+    {
+      "culture": "Alexander",
+      "cultureAbbr": "alex",
+      "start": -336,
+      "end": -323,
+      "continentAbbr": "EU",
+      "partOfContinent": "Europe",
+      "moreInfoUrl": "https://en.wikipedia.org/wiki/Alexander_the_Great",
+      "overlap": true
+    },
+    {
+      "culture": "Sasanian",
+      "start": 224,
+      "end": 651,
+      "continentAbbr": "WAs",
+      "partOfContinent": "Western Asia",
+      "moreInfoUrl": "https://en.wikipedia.org/wiki/Sasanian_Empire",
+      "overlap": false
+    },
+    {
+      "culture": "Maurya",
+      "start": -322,
+      "end": -184,
+      "continentAbbr": "SAs",
+      "partOfContinent": "South Asia",
+      "moreInfoUrl": "https://en.wikipedia.org/wiki/Maurya_Empire",
+      "overlap": false
+    },
+
+    {
+      "culture": "Han",
+      "start": -202,
+      "end": 220,
+      "continentAbbr": "EAs",
+      "partOfContinent": "East Asia",
+      "moreInfoUrl": "https://en.wikipedia.org/wiki/Han_dynasty",
+      "overlap": false
+    },
+    {
+      "culture": "Goryeo",
+      "start": 918,
+      "end": 1392,
+      "continentAbbr": "EAs",
+      "partOfContinent": "East Asia",
+      "moreInfoUrl": "https://en.wikipedia.org/wiki/Goryeo",
+      "overlap": false
+    },
+    {
+      "culture": "Kamakura",
+      "start": 1192,
+      "end": 1333,
+      "continentAbbr": "EAs",
+      "partOfContinent": "East Asia",
+      "moreInfoUrl": "https://en.wikipedia.org/wiki/Kamakura_shogunate",
+      "overlap": false
+    },
+    {
+      "culture": "Rashidun",
+      "start": 632,
+      "end": 661,
+      "continentAbbr": "WAs",
+      "partOfContinent": "Western Asia",
+      "moreInfoUrl": "https://en.wikipedia.org/wiki/Rashidun_Caliphate",
+      "overlap": false
+    },
+    {
+      "culture": "Umayyad",
+      "start": 661,
+      "end": 750,
+      "continentAbbr": "WAs",
+      "partOfContinent": "Western Asia",
+      "moreInfoUrl": "https://en.wikipedia.org/wiki/Umayyad_Caliphate",
+      "overlap": false
+    },
+    {
+      "culture": "Abbasid",
+      "start": 750,
+      "end": 1258,
+      "continentAbbr": "WAs",
+      "partOfContinent": "Western Asia",
+      "moreInfoUrl": "https://en.wikipedia.org/wiki/Abbasid_Caliphate",
+      "overlap": false
+    },
+    {
+      "culture": "Ottoman",
+      "start": 1299,
+      "end": 1922,
+      "continentAbbr": "WAs",
+      "partOfContinent": "Western Asia",
+      "moreInfoUrl": "https://en.wikipedia.org/wiki/Ottoman_Empire",
+      "overlap": false
+    },
+    {
+      "culture": "Rum",
+      "start": 1077,
+      "end": 1308,
+      "continentAbbr": "WAs",
+      "partOfContinent": "Western Asia",
+      "moreInfoUrl": "https://en.wikipedia.org/wiki/Sultanate_of_Rum",
+      "overlap": false
+    },
+    {
+      "culture": "Seljuk",
+      "start": 1037,
+      "end": 1194,
+      "continentAbbr": "WAs",
+      "partOfContinent": "Western Asia",
+      "moreInfoUrl": "https://en.wikipedia.org/wiki/Seljuk_Empire",
+      "overlap": false
+    },
+    {
+      "culture": "Timurid",
+      "start": 1370,
+      "end": 1507,
+      "continentAbbr": "WAs",
+      "partOfContinent": "Western Asia",
+      "moreInfoUrl": "https://en.wikipedia.org/wiki/Timurid_Empire",
+      "overlap": false
+    },
+    {
+      "culture": "Safavid",
+      "start": 1501,
+      "end": 1736,
+      "continentAbbr": "WAs",
+      "partOfContinent": "Western Asia",
+      "moreInfoUrl": "https://en.wikipedia.org/wiki/Safavid_Iran",
+      "overlap": false
+    },
+    {
+      "culture": "Xiongnu",
+      "start": -250,
+      "end": 100,
+      "continentAbbr": "EAs",
+      "partOfContinent": "East Asia",
+      "moreInfoUrl": "https://en.wikipedia.org/wiki/Xiongnu",
+      "overlap": false
+    },
+    {
+      "culture": "Zhou",
+      "start": -1046,
+      "end": -256,
+      "continentAbbr": "EAs",
+      "partOfContinent": "East Asia",
+      "moreInfoUrl": "https://en.wikipedia.org/wiki/Zhou_dynasty",
+      "overlap": false
+    },
+    {
+      "culture": "Shang",
+      "start": -1600,
+      "end": -1045,
+      "continentAbbr": "EAs",
+      "partOfContinent": "East Asia",
+      "moreInfoUrl": "https://en.wikipedia.org/wiki/Shang_dynasty",
+      "overlap": false
+    },
+    {
+      "culture": "Qin",
+      "start": -221,
+      "end": -206,
+      "continentAbbr": "EAs",
+      "partOfContinent": "East Asia",
+      "moreInfoUrl": "https://en.wikipedia.org/wiki/Qin_dynasty",
+      "overlap": false
+    },
+    {
+      "culture": "Three-Kingdoms",
+      "start": 220,
+      "end": 280,
+      "continentAbbr": "EAs",
+      "partOfContinent": "East Asia",
+      "moreInfoUrl": "https://en.wikipedia.org/wiki/Three_Kingdoms",
+      "overlap": false
+    },
+    {
+      "culture": "Jin",
+      "start": 266,
+      "end": 420,
+      "continentAbbr": "EAs",
+      "partOfContinent": "East Asia",
+      "moreInfoUrl": "https://en.wikipedia.org/wiki/Jin_dynasty_(266%E2%80%93420)",
+      "overlap": false
+    },
+    {
+      "culture": "Spring-Autumn-period",
+      "start": -770,
+      "end": -481,
+      "continentAbbr": "EAs",
+      "partOfContinent": "East Asia",
+      "moreInfoUrl": "https://en.wikipedia.org/wiki/Spring_and_Autumn_period",
+      "overlap": false
+    },
+    {
+      "culture": "Warring-States",
+      "start": -475,
+      "end": -221,
+      "continentAbbr": "EAs",
+      "partOfContinent": "East Asia",
+      "moreInfoUrl": "https://en.wikipedia.org/wiki/Warring_States_period",
+      "overlap": false
+    },
+    {
+      "culture": "Sui",
+      "start": 581,
+      "end": 618,
+      "continentAbbr": "EAs",
+      "partOfContinent": "East Asia",
+      "moreInfoUrl": "https://en.wikipedia.org/wiki/Sui_dynasty",
+      "overlap": false
+    },
+    {
+      "culture": "Tang",
+      "start": 618,
+      "end": 907,
+      "continentAbbr": "EAs",
+      "partOfContinent": "East Asia",
+      "moreInfoUrl": "https://en.wikipedia.org/wiki/Tang_dynasty",
+      "overlap": false
+    },
+    {
+      "culture": "Song",
+      "start": 960,
+      "end": 1279,
+      "continentAbbr": "EAs",
+      "partOfContinent": "East Asia",
+      "moreInfoUrl": "https://en.wikipedia.org/wiki/Song_dynasty",
+      "overlap": false
+    },
+    {
+      "culture": "Yuan",
+      "start": 1260,
+      "end": 1368,
+      "continentAbbr": "EAs",
+      "partOfContinent": "East Asia",
+      "moreInfoUrl": "https://en.wikipedia.org/wiki/Yuan_dynasty",
+      "overlap": false
+    },
+    {
+      "culture": "Ming",
+      "start": 1368,
+      "end": 1644,
+      "continentAbbr": "EAs",
+      "partOfContinent": "East Asia",
+      "moreInfoUrl": "https://en.wikipedia.org/wiki/Ming_dynasty",
+      "overlap": false
+    },
+    {
+      "culture": "Qing",
+      "start": 1636,
+      "end": 1912,
+      "continentAbbr": "EAs",
+      "partOfContinent": "East Asia",
+      "moreInfoUrl": "https://en.wikipedia.org/wiki/Qing_dynasty",
+      "overlap": false
+    },
+    {
+      "culture": "Kamakura",
+      "start": 1192,
+      "end": 1333,
+      "continentAbbr": "EAs",
+      "partOfContinent": "East Asia",
+      "moreInfoUrl": "https://en.wikipedia.org/wiki/Kamakura_shogunate",
+      "overlap": false
+    },
+    {
+      "culture": "Mamluk",
+      "start": 1250,
+      "end": 1517,
+      "continentAbbr": "NAf",
+      "partOfContinent": "North Africa",
+      "moreInfoUrl": "https://en.wikipedia.org/wiki/Mamluk_Sultanate",
+      "overlap": false
+    },
+    {
+      "culture": "Fatimid",
+      "start": 909,
+      "end": 1171,
+      "continentAbbr": "NAf",
+      "partOfContinent": "North Africa",
+      "moreInfoUrl": "https://en.wikipedia.org/wiki/Fatimid_Caliphate",
+      "overlap": false
+    },
+    {
+      "culture": "Kuru",
+      "start": -1200,
+      "end": -500,
+      "continentAbbr": "SAs",
+      "partOfContinent": "South Asia",
+      "moreInfoUrl": "https://en.wikipedia.org/wiki/Kuru_Kingdom",
+      "overlap": false
+    },
+    {
+      "culture": "Magadha",
+      "start": -1100,
+      "end": -345,
+      "continentAbbr": "SAs",
+      "partOfContinent": "South Asia",
+      "moreInfoUrl": "https://en.wikipedia.org/wiki/Magadha",
+      "overlap": false
+    },
+    {
+      "culture": "Indo-Greek",
+      "start": -200,
+      "end": 10,
+      "continentAbbr": "SAs",
+      "partOfContinent": "South Asia",
+      "moreInfoUrl": "https://en.wikipedia.org/wiki/Indo-Greek_Kingdom",
+      "overlap": false
+    },
+    {
+      "culture": "Kushan",
+      "start": 30,
+      "end": 375,
+      "continentAbbr": "SAs",
+      "partOfContinent": "South Asia",
+      "moreInfoUrl": "https://en.wikipedia.org/wiki/Kushan_Empire",
+      "overlap": false
+    },
+
+    {
+      "culture": "Harsha",
+      "start": 606,
+      "end": 647,
+      "continentAbbr": "SAs",
+      "partOfContinent": "South Asia",
+      "moreInfoUrl": "https://en.wikipedia.org/wiki/Harsha",
+      "overlap": false
+    },
+    {
+      "culture": "Satavahana",
+      "start": -100,
+      "end": 225,
+      "continentAbbr": "SAs",
+      "partOfContinent": "South Asia",
+      "moreInfoUrl": "https://en.wikipedia.org/wiki/Satavahana_dynasty",
+      "overlap": false
+    },
+    {
+      "culture": "Mughal",
+      "start": 1592,
+      "end": 1857,
+      "continentAbbr": "SAs",
+      "partOfContinent": "South Asia",
+      "moreInfoUrl": "https://en.wikipedia.org/wiki/Mughal_Empire",
+      "overlap": false
+    },
+    {
+      "culture": "Vakataka",
+      "start": 250,
+      "end": 500,
+      "continentAbbr": "SAs",
+      "partOfContinent": "South Asia",
+      "moreInfoUrl": "https://en.wikipedia.org/wiki/Vakataka_dynasty",
+      "overlap": false
+    },
+    {
+      "culture": "Chalukya",
+      "start": 543,
+      "end": 753,
+      "continentAbbr": "SAs",
+      "partOfContinent": "South Asia",
+      "moreInfoUrl": "https://en.wikipedia.org/wiki/Chalukya_dynasty",
+      "overlap": false
+    },
+    {
+      "culture": "Gurjara-Pratihara",
+      "start": 730,
+      "end": 1036,
+      "continentAbbr": "SAs",
+      "partOfContinent": "South Asia",
+      "moreInfoUrl": "https://en.wikipedia.org/wiki/Gurjara-Pratihara_dynasty",
+      "overlap": false
     }
   ]
 }
