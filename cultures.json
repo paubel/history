@@ -752,6 +752,15 @@
       "partOfContinent": "South Asia",
       "moreInfoUrl": "https://en.wikipedia.org/wiki/Gurjara-Pratihara_dynasty",
       "overlap": false
+    },
+    {
+      "culture": "Mongol",
+      "start": 1206,
+      "end": 1368,
+      "continentAbbr": "EAs",
+      "partOfContinent": "East Asia",
+      "moreInfoUrl": "https://en.wikipedia.org/wiki/Mongol_Empire",
+      "overlap": false
     }
   ]
 }
