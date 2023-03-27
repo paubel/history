@@ -423,8 +423,8 @@
       "culture": "Goryeo",
       "start": 918,
       "end": 1392,
-      "continentAbbr": "EAs",
-      "partOfContinent": "East Asia",
+      "continentAbbr": "JapKor",
+      "partOfContinent": "Japan-Korea",
       "moreInfoUrl": "https://en.wikipedia.org/wiki/Goryeo",
       "overlap": false
     },
@@ -760,6 +760,87 @@
       "continentAbbr": "EAs",
       "partOfContinent": "East Asia",
       "moreInfoUrl": "https://en.wikipedia.org/wiki/Mongol_Empire",
+      "overlap": false
+    },
+    {
+      "culture": "Asuka",
+      "start": 538,
+      "end": 710,
+      "continentAbbr": "JapKor",
+      "partOfContinent": "Japan-Korea",
+      "moreInfoUrl": "https://en.wikipedia.org/wiki/Asuka_period",
+      "overlap": false
+    },
+    {
+      "culture": "Yayoi",
+      "start": -300,
+      "end": 300,
+      "continentAbbr": "JapKor",
+      "partOfContinent": "Japan-Korea",
+      "moreInfoUrl": "https://en.wikipedia.org/wiki/Yayoi_period",
+      "overlap": false
+    },
+    {
+      "culture": "Golden-Horde",
+      "start": 1260,
+      "end": 1458,
+      "continentAbbr": "WAs",
+      "partOfContinent": "Western Asia",
+      "moreInfoUrl": "https://en.wikipedia.org/wiki/Golden_Horde",
+      "overlap": false
+    },
+    {
+      "culture": "Kievrus",
+      "start": 882,
+      "end": 1300,
+      "continentAbbr": "EU",
+      "partOfContinent": "Europe",
+      "moreInfoUrl": "https://sv.wikipedia.org/wiki/Kievrus",
+      "overlap": false
+    },
+    {
+      "culture": "Carolingian",
+      "start": 800,
+      "end": 888,
+      "continentAbbr": "EU",
+      "partOfContinent": "Europe",
+      "moreInfoUrl": "https://en.wikipedia.org/wiki/Carolingian_Empire",
+      "overlap": false
+    },
+    {
+      "culture": "Holy-Roman",
+      "start": 962,
+      "end": 1806,
+      "continentAbbr": "EU",
+      "partOfContinent": "Europe",
+      "moreInfoUrl": "https://en.wikipedia.org/wiki/Holy_Roman_Empire",
+      "overlap": false
+    },
+    {
+      "culture": "Ethiopian",
+      "start": 1270,
+      "end": 1974,
+      "continentAbbr": "SSA",
+      "partOfContinent": "Sub-Saharan Africa",
+      "moreInfoUrl": "https://en.wikipedia.org/wiki/Ethiopian_Empire",
+      "overlap": false
+    },
+    {
+      "culture": "Mali",
+      "start": 1230,
+      "end": 1672,
+      "continentAbbr": "SSA",
+      "partOfContinent": "Sub-Saharan Africa",
+      "moreInfoUrl": "https://en.wikipedia.org/wiki/Mali_Empire",
+      "overlap": false
+    },
+    {
+      "culture": "Zimbabwe",
+      "start": 800,
+      "end": 1400,
+      "continentAbbr": "SSA",
+      "partOfContinent": "Sub-Saharan Africa",
+      "moreInfoUrl": "https://en.wikipedia.org/wiki/Great_Zimbabwe",
       "overlap": false
     }
   ]

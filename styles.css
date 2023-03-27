@@ -1,6 +1,7 @@
 :root {
   --width-3: 2.8vw;
   --width-2: 3.9vw;
+  --width-4: 1.7vw;
 }
 body {
   background-color: lightskyblue;
@@ -115,9 +116,14 @@ article.EAs {
   left: 68vw;
 }
 
+article.JapKor {
+  background-color: hsla(246, 76%, 57%, 0.5);
+  left: 76.5vw;
+}
+
 article.OC {
   background-color: hsla(246, 76%, 57%, 0.5);
-  left: 68vw;
+  left: 80vw;
 }
 
 /* Continents END */
@@ -189,14 +195,10 @@ article.OC {
   width: var(--width-2);
 }
 
-#Byzantine {
-  width: var(--width-2);
-  left: 46.7vw;
-}
 /* WAs */
 #Byzantine {
-  width: var(--width-2);
-  left: 46.7vw;
+  width: var(--width-3);
+  left: 4.7vw;
 }
 
 #Neo-Assyrian {
@@ -333,7 +335,7 @@ article.OC {
 #Goryeo {
   width: var(--width-3);
 
-  left: 70.8vw;
+  left: 77.2vw;
 }
 #Song {
   width: var(--width-3);
@@ -349,6 +351,46 @@ article.OC {
   width: var(--width-3);
 
   left: 67.7vw;
+}
+
+#Mongol {
+  width: var(--width-3);
+  left: 70.7vw;
+}
+
+#Carolingian {
+  width: var(--width-3);
+  left: 43vw;
+}
+
+#Kievrus {
+  width: var(--width-4);
+  left: 43vw;
+}
+
+#Holy-Roman {
+  width: var(--width-4);
+  left: 45vw;
+}
+
+#Aksum {
+  width: var(--width-3);
+  left: 30vw;
+}
+
+#Zimbabwe {
+  width: var(--width-4);
+  left: 26vw;
+}
+
+#Ethiopian {
+  width: var(--width-4);
+  left: 30vw;
+}
+
+#Mali {
+  width: var(--width-4);
+  left: 28vw;
 }
 
 /*Cultures END*/
