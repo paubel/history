@@ -28,9 +28,15 @@ fetch("./cultures.json")
       timeSection.appendChild(timeDiv);
 
       let timeText = document.createElement("span");
-      const era = `BCE`;
+      const eraBCE = `BCE`;
+      const eraCE = `CE`;
+      let time = -2600 + i * 100;
+      if (time < 0) {
+        timeText.textContent = `${-2600 + i * 100} ${eraBCE}`;
+      } else if (time >= 0) {
+        timeText.textContent = `${-2600 + i * 100} ${eraCE}`;
+      }
 
-      timeText.textContent = `${Math.abs(-2600 + i * 100)} ${era}`;
       timeDiv.appendChild(timeText);
       timeDiv.style.top = i * 25 + "px";
       timeDiv.style.left = 0;

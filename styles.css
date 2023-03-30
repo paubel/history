@@ -143,6 +143,7 @@ article.OC {
 #Tiwanaku {
   width: var(--width-3);
   left: 5.2vw;
+  writing-mode: vertical-rl;
 }
 
 /* MAm */
@@ -162,6 +163,7 @@ article.OC {
 #Mississippian {
   width: var(--width-2);
   left: 21.3vw;
+  writing-mode: vertical-rl;
 }
 
 /* SSA */
@@ -195,18 +197,34 @@ article.OC {
   width: var(--width-2);
 }
 
+#Sumer {
+  width: 4.2vw;
+  left: 51vw;
+}
+
+#Akkad {
+  width: var(--width-2);
+  left: 55vw;
+}
+
+#Neo-Sumerian {
+  width: var(--width-2);
+  left: 55vw;
+}
+
 /* WAs */
 #Byzantine {
-  width: var(--width-3);
-  left: 4.7vw;
+  width: var(--width-4);
+  left: 48.7vw;
+  writing-mode: vertical-rl;
 }
 
 #Neo-Assyrian {
   width: var(--width-2);
 }
 #Medes {
-  width: var(--width-2);
-  left: 54.8vw;
+  width: var(--width-3);
+  left: 56.6vw;
 }
 
 #Neo-Babylonian {
@@ -241,7 +259,8 @@ article.OC {
 }
 
 #Ottoman {
-  width: var(--width-2);
+  width: var(--width-3);
+  writing-mode: vertical-lr;
 }
 #Safavid {
   width: var(--width-2);
@@ -249,8 +268,8 @@ article.OC {
 }
 
 #Timurid {
-  width: var(--width-2);
-  left: 55.3vw;
+  width: var(--width-3);
+  left: 56.9vw;
 }
 
 /* SAs */
@@ -272,6 +291,7 @@ article.OC {
 }
 #Satavahana {
   width: var(--width-2);
+  writing-mode: vertical-rl;
 }
 #Kushan {
   width: var(--width-2);
@@ -328,8 +348,7 @@ article.OC {
 
 #Kamakura {
   width: var(--width-3);
-
-  left: 74vw;
+  left: 81vw;
 }
 
 #Goryeo {
@@ -356,6 +375,12 @@ article.OC {
 #Mongol {
   width: var(--width-3);
   left: 70.7vw;
+  writing-mode: vertical-rl;
+}
+
+#Golden-Horde {
+  width: var(--width-3);
+  left: 54vw;
 }
 
 #Carolingian {
@@ -381,11 +406,13 @@ article.OC {
 #Zimbabwe {
   width: var(--width-4);
   left: 26vw;
+  writing-mode: vertical-rl;
 }
 
 #Ethiopian {
   width: var(--width-4);
   left: 30vw;
+  writing-mode: vertical-lr;
 }
 
 #Mali {
@@ -393,6 +420,46 @@ article.OC {
   left: 28vw;
 }
 
+#Israel {
+  width: var(--width-4);
+  left: 57vw;
+}
+
+#Judah {
+  width: var(--width-4);
+  left: 55vw;
+}
+
+#New-Spain {
+  width: var(--width-2);
+  left: 4vw;
+}
+
+#Viceroyalty-Peru {
+  width: var(--width-2);
+  left: -0.5vw;
+}
+
+#Vikings {
+  width: var(--width-4);
+  left: 46.9vw;
+  writing-mode: vertical-rl;
+}
+
+#Sillia {
+  width: var(--width-2);
+  left: 81vw;
+}
+
+#Yayoi {
+  width: var(--width-2);
+  left: 76.5vw;
+}
+
+#Asuka {
+  width: var(--width-2);
+  left: 76.5vw;
+}
 /*Cultures END*/
 
 @media (min-width: 900px) {

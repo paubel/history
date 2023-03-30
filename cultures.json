@@ -190,7 +190,7 @@
       "overlap": false
     },
     {
-      "culture": "Viceroyalty of Peru",
+      "culture": "Viceroyalty-Peru",
       "start": 1542,
       "end": 1824,
       "continentAbbr": "SAm",
@@ -254,7 +254,7 @@
       "overlap": false
     },
     {
-      "culture": "3rd Dynasty Ur",
+      "culture": "Neo-Sumerian",
       "start": -2112,
       "end": -2004,
       "continentAbbr": "WAs",
@@ -369,7 +369,7 @@
       "end": -549,
       "continentAbbr": "WAs",
       "partOfContinent": "Western Asia",
-      "moreInfoUrl": "https://en.wikipedia.org/wiki/Achaemenid_Empire",
+      "moreInfoUrl": "https://en.wikipedia.org/wiki/Medes",
       "overlap": true
     },
     {
@@ -428,15 +428,7 @@
       "moreInfoUrl": "https://en.wikipedia.org/wiki/Goryeo",
       "overlap": false
     },
-    {
-      "culture": "Kamakura",
-      "start": 1192,
-      "end": 1333,
-      "continentAbbr": "EAs",
-      "partOfContinent": "East Asia",
-      "moreInfoUrl": "https://en.wikipedia.org/wiki/Kamakura_shogunate",
-      "overlap": false
-    },
+
     {
       "culture": "Rashidun",
       "start": 632,
@@ -639,8 +631,8 @@
       "culture": "Kamakura",
       "start": 1192,
       "end": 1333,
-      "continentAbbr": "EAs",
-      "partOfContinent": "East Asia",
+      "continentAbbr": "JapKor",
+      "partOfContinent": "Japan-Korea",
       "moreInfoUrl": "https://en.wikipedia.org/wiki/Kamakura_shogunate",
       "overlap": false
     },
@@ -841,6 +833,69 @@
       "continentAbbr": "SSA",
       "partOfContinent": "Sub-Saharan Africa",
       "moreInfoUrl": "https://en.wikipedia.org/wiki/Great_Zimbabwe",
+      "overlap": false
+    },
+    {
+      "culture": "Vikings",
+      "start": 793,
+      "end": 1066,
+      "continentAbbr": "EU",
+      "partOfContinent": "Europe",
+      "moreInfoUrl": "https://en.wikipedia.org/wiki/Vikings",
+      "overlap": false
+    },
+    {
+      "culture": "New-Spain",
+      "start": 1521,
+      "end": 1821,
+      "continentAbbr": "SAm",
+      "partOfContinent": "South America",
+      "moreInfoUrl": "https://en.wikipedia.org/wiki/Vikings",
+      "overlap": false
+    },
+    {
+      "culture": "Joseon",
+      "start": 1392,
+      "end": 1897,
+      "continentAbbr": "JapKor",
+      "partOfContinent": "Japan-Korea",
+      "moreInfoUrl": "https://en.wikipedia.org/wiki/Joseon",
+      "overlap": false
+    },
+    {
+      "culture": "Israel",
+      "start": -930,
+      "end": -720,
+      "continentAbbr": "WAs",
+      "partOfContinent": "Western Asia",
+      "moreInfoUrl": "https://en.wikipedia.org/wiki/Kingdom_of_Israel_(Samaria)",
+      "overlap": false
+    },
+    {
+      "culture": "Judah",
+      "start": -930,
+      "end": -587,
+      "continentAbbr": "WAs",
+      "partOfContinent": "Western Asia",
+      "moreInfoUrl": "https://en.wikipedia.org/wiki/Kingdom_of_Judah)",
+      "overlap": false
+    },
+    {
+      "culture": "Sillia",
+      "start": -57,
+      "end": 936,
+      "continentAbbr": "JapKor",
+      "partOfContinent": "Japan-Korea",
+      "moreInfoUrl": "https://en.wikipedia.org/wiki/Silla",
+      "overlap": false
+    },
+    {
+      "culture": "Sumer",
+      "start": -2600,
+      "end": -1900,
+      "continentAbbr": "WAs",
+      "partOfContinent": "Western Asia",
+      "moreInfoUrl": "https://en.wikipedia.org/wiki/Sumer",
       "overlap": false
     }
   ]
